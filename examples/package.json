@@ -1,0 +1,17 @@
+{
+  "name": "swarm-examples",
+  "private": true,
+  "scripts": {
+    "bareMinimum": "ts-node basic/bareMinimum.ts",
+    "agentHandoff": "ts-node basic/agentHandoff.ts",
+    "contextVariables": "ts-node basic/contextVariables.ts",
+    "triageAgent": "ts-node triageAgent/triageExample.ts",
+    "weatherAgent": "ts-node weatherAgent/weatherExample.ts",
+    "airline": "ts-node airline/airlineExample.ts",
+    "supportBot": "ts-node supportBot/supportBotExample.ts",
+    "personalShopper": "ts-node personalShopper/personalShopperExample.ts"
+  },
+  "dependencies": {
+    "swarm": "file:../"
+  }
+}
